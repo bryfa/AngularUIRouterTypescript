@@ -33,7 +33,7 @@ module Application {
     }
 }
 
-angular.module('app', ['ui.router'])
+angular.module('app', ['ui.router', 'app.module2'])
     .config(["$stateProvider", "$urlRouterProvider",
         ($stateProvider, $urlRouterProvider) => {
             return new Application.AppConfig($stateProvider, $urlRouterProvider);

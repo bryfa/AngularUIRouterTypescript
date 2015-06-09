@@ -9,3 +9,5 @@
 /// <reference path='AppController.ts' />
 /// <reference path="AppConfig.ts" />
 /// <reference path="modules/module1/ModuleController.ts" />
+/// <reference path="modules/module2/ModuleController.ts" />
+/// <reference path="modules/module2/ModuleConfig.ts" />

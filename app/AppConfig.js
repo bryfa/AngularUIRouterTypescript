@@ -28,7 +28,7 @@ var Application;
     })();
     Application.AppConfig = AppConfig;
 })(Application || (Application = {}));
-angular.module('app', ['ui.router']).config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
+angular.module('app', ['ui.router', 'app.module2']).config(["$stateProvider", "$urlRouterProvider", function ($stateProvider, $urlRouterProvider) {
     return new Application.AppConfig($stateProvider, $urlRouterProvider);
 }]);
 //# sourceMappingURL=AppConfig.js.map
