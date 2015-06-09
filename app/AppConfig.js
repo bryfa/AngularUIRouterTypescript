@@ -11,7 +11,8 @@ var Application;
             $stateProvider.state("module1", {
                 abstract: false,
                 url: '/module1',
-                templateUrl: 'app/modules/module1/main.html'
+                templateUrl: 'app/modules/module1/main.html',
+                controller: Application.Module1.ModuleController
             }).state("home", {
                 abstract: false,
                 url: '/',
@@ -19,7 +20,8 @@ var Application;
             }).state("about", {
                 abstract: false,
                 url: '/about',
-                templateUrl: 'app/views/about.html'
+                templateUrl: 'app/views/about.html',
+                controller: Application.AppController
             });
         }
         return AppConfig;

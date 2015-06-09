@@ -8,6 +8,7 @@ var Application;
     var AppController = (function () {
         function AppController($scope) {
             this.$scope = $scope;
+            $scope.name = "Application Example";
             // todo: initialize scope properties
         }
         AppController.$inject = ['$scope'];

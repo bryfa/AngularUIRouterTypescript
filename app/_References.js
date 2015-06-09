@@ -8,4 +8,5 @@
 /// <reference path="AppStorage.ts" />
 /// <reference path='AppController.ts' />
 /// <reference path="AppConfig.ts" />
+/// <reference path="modules/module1/ModuleController.ts" />
 //# sourceMappingURL=_References.js.map

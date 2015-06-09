@@ -13,7 +13,7 @@ module Application {
                     abstract: false,
                     url: '/module1',
                     templateUrl: 'app/modules/module1/main.html',
-                   // controller: "AppController"
+                    controller: Application.Module1.ModuleController
                 })
                 .state("home", <ng.ui.IState>
                 {
@@ -27,7 +27,7 @@ module Application {
                     abstract: false,
                     url: '/about',
                     templateUrl: 'app/views/about.html',
-                    //controller: "AppController"
+                    controller: Application.AppController
                 });
         }
     }
